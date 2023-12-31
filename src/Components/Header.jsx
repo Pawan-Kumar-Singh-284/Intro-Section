@@ -41,7 +41,7 @@ const [company, setCompany]=useState(false);
               </button>
               {features && <ul className="mt-2 ml-3 lg:ml-0 lg:p-3 lg:shadow">
                 <li className="flex items-center justify-start text-sm mb-2">
-                  <img src={todoList} alt="todo" className="mr-2"/>  textodolist
+                  <img src={todoList} alt="todo" className="mr-2"/>  Todolist
                 </li>
                 <li className="flex items-center justify-start text-sm mb-2">
                   <img src={calender} alt="calender" className="mr-2" /> Calendar
