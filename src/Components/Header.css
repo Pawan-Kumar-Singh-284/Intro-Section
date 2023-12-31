@@ -1,0 +1,19 @@
+.navbar{
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 50%;
+    bottom: 0;
+  
+    padding: 1rem;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar.open{
+    top: 5rem;
+    z-index: 90;
+    background-color: #fff;
+
+    
+}
